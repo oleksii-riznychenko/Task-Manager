@@ -1,0 +1,15 @@
+.task-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__col {
+    flex: 0 0 32%;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+}

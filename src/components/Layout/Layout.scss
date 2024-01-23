@@ -1,0 +1,14 @@
+.layout {
+  display: flex;
+  min-height: 100%;
+  position: relative;
+  flex-direction: column;
+  transition: var(--transition-main);
+  background-color: var(--color-additional-1);
+
+  &__main {
+    display: flex;
+    flex: 1 0 auto;
+    padding: 20px 0;
+  }
+}

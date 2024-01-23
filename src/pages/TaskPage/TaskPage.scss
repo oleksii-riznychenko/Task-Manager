@@ -1,0 +1,12 @@
+.task-page {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+}

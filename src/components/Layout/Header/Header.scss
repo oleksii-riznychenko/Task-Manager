@@ -1,0 +1,16 @@
+.header {
+  top: 0;
+  height: 45px;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  color: var(--color-primary-2);
+  transition: var(--transition-main);
+  background-color: var(--color-primary-1);
+
+  h3 {
+    font-weight: 700;
+  }
+}
